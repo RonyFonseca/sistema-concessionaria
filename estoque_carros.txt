@@ -18,3 +18,5 @@
 {'Nome': 'Jetta', 'Preco': '95.000', 'Ano': '2021', 'Estado': 'Seminovo', 'Autor': 'Raquel'}
 {'Nome': 'Cherokee', 'Preco': '140.000', 'Ano': '2022', 'Estado': 'Novo', 'Autor': 'Felipe'}
 {'Nome': 'C3', 'Preco': '40.000', 'Ano': '2018', 'Estado': 'Usado', 'Autor': 'Tatiane'}
+{'Nome': 'Civic', 'Preco': '85.000', 'Ano': '2021', 'Estado': 'Usado', 'Autor': 'Rony'}
+{'Nome': 'Golf', 'Preco': '100.000', 'Ano': '2020', 'Estado': 'Novo', 'Autor': 'Rony'}
