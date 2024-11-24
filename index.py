@@ -283,6 +283,4 @@ def menu_buscar_carro():
     except:
         print("\u26A0 Ocorreu algum erro na sua aplicação")
 
-main()  # PAREI AQUI
-
-# FALTA TRATAR OS ERROS
+main()
