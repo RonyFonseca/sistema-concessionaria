@@ -1,20 +1,20 @@
-{'Nome': 'Civic', 'Preco': '90.000', 'Ano': '2022', 'Estado': 'Novo', 'Autor': 'Carlos'}
-{'Nome': 'Corolla', 'Preco': '85.000', 'Ano': '2021', 'Estado': 'Seminovo', 'Autor': 'Maria'}
-{'Nome': 'Golf', 'Preco': '80.000', 'Ano': '2020', 'Estado': 'Usado', 'Autor': 'Joaquim'}
-{'Nome': 'Onix', 'Preco': '45.000', 'Ano': '2018', 'Estado': 'Usado', 'Autor': 'Ana'}
-{'Nome': 'HB20', 'Preco': '50.000', 'Ano': '2020', 'Estado': 'Seminovo', 'Autor': 'Paulo'}
-{'Nome': 'Fusion', 'Preco': '120.000', 'Ano': '2022', 'Estado': 'Novo', 'Autor': 'Ricardo'}
-{'Nome': 'Fiesta', 'Preco': '30.000', 'Ano': '2017', 'Estado': 'Usado', 'Autor': 'Luciana'}
-{'Nome': 'Kwid', 'Preco': '35.000', 'Ano': '2019', 'Estado': 'Seminovo', 'Autor': 'Juliana'}
-{'Nome': 'Argo', 'Preco': '55.000', 'Ano': '2021', 'Estado': 'Seminovo', 'Autor': 'Bruno'}
-{'Nome': 'Tucson', 'Preco': '70.000', 'Ano': '2020', 'Estado': 'Usado', 'Autor': 'Lucas'}
-{'Nome': 'X6', 'Preco': '250.000', 'Ano': '2022', 'Estado': 'Novo', 'Autor': 'Roberta'}
-{'Nome': 'A3', 'Preco': '120.000', 'Ano': '2021', 'Estado': 'Seminovo', 'Autor': 'Marcos'}
-{'Nome': 'Pathfinder', 'Preco': '180.000', 'Ano': '2022', 'Estado': 'Novo', 'Autor': 'Daniel'}
-{'Nome': 'Ranger', 'Preco': '95.000', 'Ano': '2020', 'Estado': 'Usado', 'Autor': 'Fernando'}
-{'Nome': 'Compass', 'Preco': '100.000', 'Ano': '2021', 'Estado': 'Seminovo', 'Autor': 'Cláudia'}
-{'Nome': 'Tiguan', 'Preco': '110.000', 'Ano': '2022', 'Estado': 'Novo', 'Autor': 'Beatriz'}
-{'Nome': 'S10', 'Preco': '85.000', 'Ano': '2020', 'Estado': 'Usado', 'Autor': 'Gustavo'}
-{'Nome': 'Jetta', 'Preco': '95.000', 'Ano': '2021', 'Estado': 'Seminovo', 'Autor': 'Raquel'}
-{'Nome': 'Cherokee', 'Preco': '140.000', 'Ano': '2022', 'Estado': 'Novo', 'Autor': 'Felipe'}
-{'Nome': 'C3', 'Preco': '40.000', 'Ano': '2018', 'Estado': 'Usado', 'Autor': 'Tatiane'}
+Corolla,60.000,2010,Excelente,Ana
+Fiesta,40.000,2015,Semi-novo,Lucas
+Civic,55.000,2009,Usado,Pedro
+Onix,70.000,2020,Novo,Sofia
+Gol,30.000,2012,Bom,Fernando
+HB20,45.000,2018,Ótimo,Marina
+Uno,25.000,2011,Razoável,Cláudio
+Cruze,80.000,2019,Novo,Juliana
+Sandero,35.000,2014,Usado,Roberto
+Polo,50.000,2016,Semi-novo,Luana
+Palio,28.000,2008,Rodado,Carla
+Tracker,90.000,2021,Impecável,Felipe
+Duster,75.000,2020,Ótimo,Aline
+Tucson,60.000,2013,Bom,Gustavo
+Voyage,38.000,2017,Conservado,Diana
+Siena,29.000,2009,Regular,Renato
+Ka,33.000,2012,Razoável,Vanessa
+Spin,65.000,2015,Semi-novo,Rodrigo
+EcoSport,58.000,2016,Bom,Tatiane
+Strada,50.000,2018,Excelente,Marcelo
