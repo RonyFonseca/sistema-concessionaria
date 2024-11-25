@@ -47,6 +47,7 @@ Um sistema simples em Python para **cadastrar** e **buscar carros**, armazenando
    git clone https://github.com/SEU_USUARIO/sistema-carros.git
 
 ### 📂 Estrutura do Projeto
+
 sistema-carros/
 ├── sistema_carros.py   # Arquivo principal do sistema.
 ├── estoque_carros.txt  # Arquivo onde os carros cadastrados são armazenados.
