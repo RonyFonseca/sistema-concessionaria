@@ -1,44 +1,47 @@
-# Sistema de Concessionária em Python 🚗
+# 🚗 Sistema de Gerenciamento de Carros
 
-Este projeto é um sistema de gerenciamento de concessionária desenvolvido em **Python**. O sistema permite o cadastro, busca e gerenciamento de carros, além de funcionalidades para criar e gerenciar usuários.
-
----
-
-## Funcionalidades 🛠️
-
-- **Gerenciamento de Usuários**
-  - Registro de usuários.
-  - Login e autenticação (suporte para usuários "Guest").
-  - Exclusão de usuários.
-
-- **Gerenciamento de Carros**
-  - Cadastro de carros com os atributos:
-    - Nome.
-    - Preço.
-    - Ano.
-    - Estado.
-  - Busca de carros por:
-    - Nome.
-    - Preço.
-    - Ano.
-    - Estado.
-
-- **Interface Simples**
-  - Sistema baseado em menus no terminal com opções intuitivas.
-  - Emojis para melhorar a visualização e navegação.
+Um sistema simples em Python para **cadastrar** e **buscar carros**, armazenando os dados localmente em um arquivo. Ideal para quem deseja aprender ou explorar conceitos básicos de manipulação de arquivos, menus interativos e validações em Python.
 
 ---
 
-## Requisitos 📋
+## 🛠️ Funcionalidades
 
-- **Python 3.x**
-- Sistema operacional com suporte ao comando `os.system("cls")` (ideal para Windows). Para sistemas Unix/Linux, substituir `cls` por `clear`.
+### 📋 Menu Principal
+- [0] **Cadastrar Carro**: Permite adicionar informações de novos carros ao sistema.
+- [1] **Buscar Carro**: Realiza a busca de carros cadastrados com base em diferentes critérios.
+- [2] **Sair**: Encerra o programa.
+
+### 🚗 Cadastro de Carros
+- Armazena os seguintes dados:
+  - **Nome** do carro.
+  - **Preço** do carro.
+  - **Ano** de fabricação.
+  - **Estado** (novo, usado, etc.).
+- Os dados são salvos no arquivo `estoque_carros.txt`.
+
+### 🔍 Busca de Carros
+- Critérios de busca disponíveis:
+  - Nome.
+  - Preço.
+  - Ano.
+  - Estado.
+- Mostra os resultados encontrados de forma organizada.
 
 ---
 
-## Como Usar 🚀
+## 🖥️ Requisitos
 
-1. **Clone o Repositório**
+- **Python 3.x** instalado na máquina.
+- Funciona apenas com bibliotecas nativas do Python:
+  - `os`: Para limpeza de tela.
+  - `time`: Para atrasos controlados (sleep).
+  - `sys`: Para encerrar o programa.
+
+---
+
+## 🚀 Como Usar
+
+### 1️⃣ Executando o Programa
+1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/sistema-concessionaria.git
-   cd sistema-concessionaria
+   git clone https://github.com/SEU_USUARIO/sistema-carros.git
