@@ -153,7 +153,7 @@ def menu_buscar_carro():
             
             # opção que não existe
             elif(opc_escolhida > 3):
-                    msg("\u26A0 Não existe essa opção \u26A0", 1)
+                msg("\u26A0 Não existe essa opção \u26A0", 1)
 
             continuar = input("\u26A0 Você deseja continuar procurando carros ? (s/n) \u26A0 :")
             if (continuar == "n" or continuar == "não"):
