@@ -25,7 +25,7 @@ def menu_principal():
                 elif(opc_escolhida == 2):
                     msg("Saindo da aplicação", 1)
                     sys.exit()
-                elif(opc_escolhida > 3):
+                elif(opc_escolhida > 2):
                     msg("\u26A0 Não existe essa opção \u26A0", 1)
 
     except ValueError:
@@ -37,7 +37,7 @@ def menu_principal():
 
 def cadastrar_carro():# função para cadastrar carros
     try:
-        os.system("cls")
+        os.system("cls") #clear
         while True:
             # menu de cadastro
             print(f"======[CADASTRAR]======")
@@ -48,13 +48,13 @@ def cadastrar_carro():# função para cadastrar carros
             print("========================")
 
             # inputs do menu de cadastro
-            nome_car = input("\U0001F464:").rstrip()     #emoji pessoa
-            preco = input("\U0001F4B0:").rstrip()  #emoji sacola de moedas
-            ano = input("\U0001F5D3 :").rstrip()    #emoji calendário
-            estado = input("\u2699 :").rstrip()           #emoji engrenagem
+            nome_car = input("\U0001F464:").strip()     #emoji pessoa
+            preco = input("\U0001F4B0:").strip()        #emoji sacola de moedas
+            ano = input("\U0001F5D3 :").strip()         #emoji calendário
+            estado = input("\u2699 :").strip()          #emoji engrenagem
 
             # validações para ver se é válido o carro
-            if(int(ano)<=0 or float(preco)<0):
+            if(int(ano)<=0 or float(preco)<=0):
                 msg("\u26A0 O valor não pode ser negativo ou igual a zero \u26A0", 1)
             else:
                 # cadastrando no txt
@@ -63,10 +63,11 @@ def cadastrar_carro():# função para cadastrar carros
                 msg("Cadastrando", 0.5)
                 msg("Sucesso!!", 1)
 
-            opc_escolhida = input(
-                "\u26A0 Você deseja continuar cadastrando carros ? (s/n) \u26A0 :") #emoji de alerta
-            if (opc_escolhida == "n" or opc_escolhida == "não"):
-                break
+                opc_escolhida = input("\u26A0 Você deseja continuar cadastrando carros ? (s/n) \u26A0 :").lower() #emoji de alerta
+                if (opc_escolhida == "n" or opc_escolhida == "não"):
+                    break
+                else:
+                    os.system("cls")
 
         menu_principal()
 
@@ -154,8 +155,7 @@ def menu_buscar_carro():
             elif(opc_escolhida > 3):
                     msg("\u26A0 Não existe essa opção \u26A0", 1)
 
-            continuar = input(
-                "\u26A0 Você deseja continuar procurando carros ? (s/n) \u26A0 :")
+            continuar = input("\u26A0 Você deseja continuar procurando carros ? (s/n) \u26A0 :")
             if (continuar == "n" or continuar == "não"):
                 break
         menu_principal()

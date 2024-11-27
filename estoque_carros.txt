@@ -18,4 +18,6 @@ Ka,33.000,2012,Razoável
 Spin,65.000,2015,Semi-novo
 EcoSport,58.000,2016,Bom
 Strada,50.000,2018,Excelente
-Rony,2.50,2020,Usado
+r,2,2,2
+r,2,2,2
+r,3,3,3
