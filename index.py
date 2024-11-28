@@ -8,14 +8,14 @@ def msg(msg: str, tempo: float): #FUNÇÃO DE MENSAGEM PERSONALIZADO
     os.system("cls")
 
 def menu_principal():
-    try:
+    try: #TRATAR ERRO
         os.system("cls")
         while True:
                 print(f"="*7 + "[Bem vindo]" + "=" * 6)
                 print("[0]-[\U0001F4DD Cadastrar carro ]") #emoji  papel e lápis
                 print("[1]-[\U0001F50D Buscar carro    ]") #emoji lupa
                 print("[2]-[\U0001F6AA Sair            ]") #emoji porta
-                print("="*24)  # calculo para ajustar com o nome
+                print("="*24)
                 opc_escolhida = int(input("Qual Opção deseja:"))
 
                 if(opc_escolhida == 0):
@@ -31,9 +31,6 @@ def menu_principal():
     except ValueError:
         msg("\u26A0 Você digitou um valor inválido", 1)
         menu_principal()
-
-    except:
-        print("\u26A0 Ocorreu algum erro na sua aplicação")
 
 def cadastrar_carro():# função para cadastrar carros
     try:
@@ -75,9 +72,6 @@ def cadastrar_carro():# função para cadastrar carros
         msg("\u26A0 Você digitou um valor inválido", 1)
         cadastrar_carro()
 
-    except:
-        print("\u26A0 Ocorreu algum erro na sua aplicação")
-
 def dados_tratados_arquivo_carros(): 
     os.system("cls")
     carros = []
@@ -116,9 +110,6 @@ def buscar_carro(o_que_deseja_buscar):
         msg("\u26A0 Você digitou um valor inválido", 1)
         buscar_carro()
 
-    except:
-        print("\u26A0 Ocorreu algum erro na sua aplicação")
-
 def menu_buscar_carro():
     try:
         os.system("cls")
@@ -155,7 +146,7 @@ def menu_buscar_carro():
             elif(opc_escolhida > 3):
                 msg("\u26A0 Não existe essa opção \u26A0", 1)
 
-            continuar = input("\u26A0 Você deseja continuar procurando carros ? (s/n) \u26A0 :")
+            continuar = input("\u26A0 Você deseja continuar procurando carros ? (s/n) \u26A0 :").lower()
             if (continuar == "n" or continuar == "não"):
                 break
         menu_principal()
@@ -164,9 +155,6 @@ def menu_buscar_carro():
         msg("\u26A0 Você digitou um valor inválido", 1)
         menu_buscar_carro()
 
-    except:
-        print("\u26A0 Ocorreu algum erro na sua aplicação")
-
 menu_principal()  # PAREI AQUI
 
-# FALTA TRATAR OS ERROS
+# FALTA TRATAR OS ERROS2
