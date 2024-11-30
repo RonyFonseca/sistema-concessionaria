@@ -18,3 +18,4 @@ Ka,33.000,2012,Razoável
 Spin,65.000,2015,Semi-novo
 EcoSport,58.000,2016,Bom
 Strada,50.000,2018,Excelente
+pokemon,20.000,2020,Novo
